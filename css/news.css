@@ -14,7 +14,7 @@ div#bottons{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 div#bottons .botao{
@@ -59,12 +59,75 @@ div#conteiner p{
 div.text{
   display: flex;
   height: 200px;
+  margin-bottom: 4rem;
 }
 
 div.text img{
+  width: 80%;
+  height: 100%;
   margin: 1rem;
 }
 div.text p{
   margin: 3rem 0;
   align-items: center;
+}
+
+@media screen and (max-width: 885px) {
+  div.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    align-items: center;
+  }
+  
+
+  div.text img{
+    width: 40%;
+    height: 100%;
+    margin: 1rem;
+  }
+  div.text p{
+    margin: 1rem 0;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  div.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13rem;
+    align-items: center;
+  }
+  
+
+  div.text img{
+    width: 50%;
+    height: 100%;
+    margin: 1rem;
+  }
+  div.text p{
+    margin: 1rem 0;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  div.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15rem;
+    align-items: center;
+  }
+  
+
+  div.text img{
+    width: 50%;
+    height: 100%;
+    margin: 1rem;
+  }
+  div.text p{
+    margin: 1rem 0;
+    align-items: center;
+  }
 }
